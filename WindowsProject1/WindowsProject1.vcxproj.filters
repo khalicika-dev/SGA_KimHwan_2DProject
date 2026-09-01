@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="WindowsProject1.h" />
+    <ClInclude Include="Framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Framework\Device\Device.h">
+      <Filter>Framework\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Render\PixelShader.h" />
+    <ClInclude Include="Framework\Render\VertexShader.h" />
+    <ClInclude Include="Framework\Render\VertexLayouts.h" />
+    <ClInclude Include="Framework\Render\VertexBuffer.h" />
+    <ClInclude Include="Framework\Render\IndexBuffer.h" />
+    <ClInclude Include="Program\Program.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Framework\Render\Texture.h" />
+    <ClInclude Include="Framework\Render\ConstantBuffer.h" />
+    <ClInclude Include="Framework\Render\GlobalBuffer.h" />
+    <ClInclude Include="TypeDef.h" />
+    <ClInclude Include="Framework\Utility\Keyboard.h" />
+    <ClInclude Include="Framework\Utility\Timer.h" />
+    <ClInclude Include="Framework\Math\Vector2.h" />
+    <ClInclude Include="Framework\Math\Transform.h" />
+    <ClInclude Include="Object\Basic.Obj\Quad.h" />
+    <ClInclude Include="Framework\State\SamplerState.h" />
+    <ClInclude Include="Framework\State\StateManager.h" />
+    <ClInclude Include="Framework\Collision\CircleCollider.h" />
+    <ClInclude Include="Framework\Collision\Collider.h" />
+    <ClInclude Include="Framework\Collision\RectCollider.h" />
+    <ClInclude Include="Framework\Render\Shader.h" />
+    <ClInclude Include="Framework\Render\ShaderManager.h" />
+    <ClInclude Include="Framework\State\BlendState.h" />
+    <ClInclude Include="Framework\State\RasterizerState.h" />
+    <ClInclude Include="Object\Basic.Obj\Sprite.h" />
+    <ClInclude Include="Framework\Animation\Action.h" />
+    <ClInclude Include="Object\Basic.Obj\Effect\Effect.h" />
+    <ClInclude Include="Object\Basic.Obj\Effect\EffectManager.h" />
+    <ClInclude Include="Framework\Camera\Camera.h" />
+    <ClInclude Include="Framework\Math\Math.h" />
+    <ClInclude Include="Scene\Scene_Map1.h" />
+    <ClInclude Include="Object\GameObj\Base\MapManager.h" />
+    <ClInclude Include="Object\GameObj\Base\GameObject.h" />
+    <ClInclude Include="Object\GameObj\Base\ObjectManager.h" />
+    <ClInclude Include="Object\GameObj\Player.h" />
+    <ClInclude Include="Framework\Utility\Debugger.h" />
+    <ClInclude Include="Framework\Collision\LineCollider.h" />
+    <ClInclude Include="Scene\Scene_Map2.h" />
+    <ClInclude Include="Object\GameObj\Monster_Flower.h" />
+    <ClInclude Include="Object\GameObj\Player_Weapon.h" />
+    <ClInclude Include="Object\GameObj\Base\UIStateManager.h" />
+    <ClInclude Include="Object\GameObj\Blooding.h" />
+    <ClInclude Include="Framework\Utility\DirectWrite.h" />
+    <ClInclude Include="Object\GameObj\Gold.h" />
+    <ClInclude Include="Scene\Scene_Map3.h" />
+    <ClInclude Include="Object\GameObj\Item.h" />
+    <ClInclude Include="Scene\Scene_Map4.h" />
+    <ClInclude Include="Object\GameObj\Monster_BossFlower.h" />
+    <ClInclude Include="Scene\Scene_Title.h" />
+    <ClInclude Include="Object\Basic.Obj\Button.h" />
+    <ClInclude Include="Scene\Scene_Help.h" />
+    <ClInclude Include="Scene\Scene_Clear.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="WindowsProject1.ico" />
+    <Image Include="Resource\eldenring.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Resource\Textures\nongdamgom2.png" />
+    <Image Include="Resource\Textures\earth.png" />
+    <Image Include="Resource\Textures\eldenring.png" />
+    <Image Include="Resource\Textures\moon.png" />
+    <Image Include="Resource\Textures\nongdamgom.png" />
+    <Image Include="Resource\Textures\sun.png" />
+    <Image Include="Resource\Textures\aimmark.png" />
+    <Image Include="Resource\Textures\background.png" />
+    <Image Include="Resource\Textures\nongdamgom2_arm.png" />
+    <Image Include="Resource\Textures\bullet.png" />
+    <Image Include="Resource\Textures\block.png" />
+    <Image Include="Resource\Textures\malaygom.png" />
+    <Image Include="Resource\Textures\vbackground.jpg" />
+    <Image Include="Resource\Textures\bible.png" />
+    <Image Include="Resource\Textures\Bullet2.png" />
+    <Image Include="Resource\Textures\Curby.png" />
+    <Image Include="Resource\Textures\AirPlane.png" />
+    <Image Include="Resource\Textures\effect2.png" />
+    <Image Include="Resource\Textures\effect3.png" />
+    <Image Include="Resource\Textures\effect1.png" />
+    <Image Include="Resource\Textures\Map\Map1.png" />
+    <Image Include="Resource\Sprites\KOGsprite.png" />
+    <Image Include="Resource\Textures\Map\Map2.png" />
+    <Image Include="Resource\Sprites\SpriteFlower.png" />
+    <Image Include="Resource\Sprites\SpriteWeapon.png" />
+    <Image Include="Resource\Textures\Icon_Enemy.png" />
+    <Image Include="Resource\Textures\Map\Map3.png" />
+    <Image Include="Resource\Sprites\Icons(30x30).png" />
+    <Image Include="Resource\Sprites\ItemSprite.png" />
+    <Image Include="Resource\Sprites\Blooding(20x6).png" />
+    <Image Include="Resource\Sprites\GoldSprite.png" />
+    <Image Include="Resource\Textures\Map\Map4.png" />
+    <Image Include="Resource\Effects\atk_blow.png" />
+    <Image Include="Resource\Effects\atk_slash.png" />
+    <Image Include="Resource\Effects\death_dust.png" />
+    <Image Include="Resource\Textures\Title.png" />
+    <Image Include="Resource\Textures\Logo.png" />
+    <Image Include="Resource\Textures\Btn_help.png" />
+    <Image Include="Resource\Textures\Btn_main.png" />
+    <Image Include="Resource\Textures\Btn_gamestart.png" />
+    <Image Include="Resource\Textures\Map\MapTutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsProject1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsProject1.cpp" />
+    <ClCompile Include="Framework.cpp" />
+    <ClCompile Include="Framework\Device\Device.cpp">
+      <Filter>Framework\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Render\PixelShader.cpp" />
+    <ClCompile Include="Framework\Render\VertexShader.cpp" />
+    <ClCompile Include="Framework\Render\VertexBuffer.cpp" />
+    <ClCompile Include="Framework\Render\IndexBuffer.cpp" />
+    <ClCompile Include="Program\Program.cpp" />
+    <ClCompile Include="Framework\Render\Texture.cpp" />
+    <ClCompile Include="Framework\Render\ConstantBuffer.cpp" />
+    <ClCompile Include="Framework\Utility\Keyboard.cpp" />
+    <ClCompile Include="Framework\Utility\Timer.cpp" />
+    <ClCompile Include="Framework\Math\Vector2.cpp" />
+    <ClCompile Include="Framework\Math\Transform.cpp" />
+    <ClCompile Include="Object\Basic.Obj\Quad.cpp" />
+    <ClCompile Include="Framework\State\SamplerState.cpp" />
+    <ClCompile Include="Framework\State\StateManager.cpp" />
+    <ClCompile Include="Framework\Render\Shader.cpp" />
+    <ClCompile Include="Framework\Render\ShaderManager.cpp" />
+    <ClCompile Include="Framework\State\BlendState.cpp" />
+    <ClCompile Include="Framework\State\RasterizerState.cpp" />
+    <ClCompile Include="Framework\Collision\Collider.cpp" />
+    <ClCompile Include="Framework\Collision\CircleCollider.cpp" />
+    <ClCompile Include="Framework\Collision\RectCollider.cpp" />
+    <ClCompile Include="Object\Basic.Obj\Sprite.cpp" />
+    <ClCompile Include="Framework\Animation\Action.cpp" />
+    <ClCompile Include="Object\Basic.Obj\Effect\Effect.cpp" />
+    <ClCompile Include="Object\Basic.Obj\Effect\EffectManager.cpp" />
+    <ClCompile Include="Framework\Camera\Camera.cpp" />
+    <ClCompile Include="Framework\Math\Math.cpp" />
+    <ClCompile Include="Scene\Scene_Map1.cpp" />
+    <ClCompile Include="Object\GameObj\Base\MapManager.cpp" />
+    <ClCompile Include="Object\GameObj\Base\GameObject.cpp" />
+    <ClCompile Include="Object\GameObj\Base\ObjectManager.cpp" />
+    <ClCompile Include="Object\GameObj\Player.cpp" />
+    <ClCompile Include="Framework\Utility\Debugger.cpp" />
+    <ClCompile Include="Framework\Collision\LineCollider.cpp" />
+    <ClCompile Include="Scene\Scene_Map2.cpp" />
+    <ClCompile Include="Object\GameObj\Monster_Flower.cpp" />
+    <ClCompile Include="Object\GameObj\Player_Weapon.cpp" />
+    <ClCompile Include="Object\GameObj\Base\UIStateManager.cpp" />
+    <ClCompile Include="Object\GameObj\Blooding.cpp" />
+    <ClCompile Include="Framework\Utility\DirectWrite.cpp" />
+    <ClCompile Include="Object\GameObj\Gold.cpp" />
+    <ClCompile Include="Scene\Scene_Map3.cpp" />
+    <ClCompile Include="Object\GameObj\Item.cpp" />
+    <ClCompile Include="Scene\Scene_Map4.cpp" />
+    <ClCompile Include="Object\GameObj\Monster_BossFlower.cpp" />
+    <ClCompile Include="Scene\Scene_Title.cpp" />
+    <ClCompile Include="Object\Basic.Obj\Button.cpp" />
+    <ClCompile Include="Scene\Scene_Help.cpp" />
+    <ClCompile Include="Scene\Scene_Clear.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cf82cefe-8835-46c6-8470-4e96e8a761dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{debe3e5b-38c2-4064-ae18-8d7829aaef7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{c4ac2cf6-b89c-47c4-9756-192b3fe1cb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Device">
+      <UniqueIdentifier>{1170660e-8b23-4e02-a7be-539e688ff902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Render">
+      <UniqueIdentifier>{056c1aea-e948-479b-97da-973f8a63f959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{80d4a3ff-f45a-4e8d-a938-08c5cddb38de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a066305f-c2d5-48bf-a6e1-bef10de131e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{66c67cf2-aa45-489a-ba82-c162387a8bb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\TextureVertexShader.hlsl" />
+    <FxCompile Include="Shaders\TextureShader.hlsl" />
+    <FxCompile Include="Shaders\ColorShader.hlsl" />
+    <FxCompile Include="Shaders\VertexShader.hlsl" />
+    <FxCompile Include="Shaders\ActionShader.hlsl" />
+    <FxCompile Include="Shaders\ButtonShader.hlsl" />
+  </ItemGroup>
+</Project>

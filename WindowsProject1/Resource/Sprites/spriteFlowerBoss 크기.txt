@@ -1,0 +1,3 @@
+[1행 세로크기: 185px]
+idle: 138x185 (1행 1,2번, loop - 35frame 세로 185px)
+attack: 1행 138x185 -> 2행 200x105 (1행 3,4,5,6,7번,2행 1,2번 once - 6frame, 4frame, 3frame, 3frame, 24frame, 2frame, 28frame)

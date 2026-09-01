@@ -1,0 +1,45 @@
+[1행 세로크기: 71px]
+idle: 20x71 (1행 1,2,3번, pingpong - 56frame 세로 71px, 6frame 71px, 33frame 71px)
+walk: 23x70 (1행 4,5,6번, pingpong - 9frame 세로70px, 10frame 69px, 11frame 68px)
+run: 66x67 (1행 7,8,9번, loop - 5frame 67px, 6frame 67px, 6frame 67px)
+jumpready: 35x43 (1행 10번 end - 8frame 43px)
+jump: 72x64 (1행 10,11번 end - 27frame 64px, endframe 64px)
+
+[2행 세로크기: 66px]
+charge: 79x61 (2행 1,2,3번 loop - 2frame 61px, 2frame 56px, 2frame 49px)
+charge2(부딫히거나 공중차지): 49x59 (2행 4번 end 59px)
+hit: 46x66 (2행 5,6번 once - 4frame 66px, 4frame 65px)
+hitair: 59x59 (2행 7,8번 once - 5frame 59px, 5frame 58px)
+
+[3행 세로크기: 64px]
+attack: 70x64 (3행 1,2,3,4번 once - 프레임횟수는 공격속도에 따라 다름, 62px, 64px, 46px, 45px)
+attackair: 42x53 (3행 5,6,7번 once - 프레임횟수는 공격속도에 따라 다름, 지상공격보다는 조금 느림, 49px, 53px, 48px)
+cslash: 60x40 (3행 8번 end - 약 6frame? 40px)
+deathair: 67x47 (3행 9번 end 47px)
+
+[4행 세로크기: 99px]
+raise: 68x97 (4행 1,2,3,4번 end - 각 2frame, 44px, 41px, 58px, 97px)
+raiseair: 49x67 (4행 5,6,7,4번 end - 각 2frame, 52px, 55px, 67px, 97px)
+
+[5행 세로크기: 86px]
+gog: 76x86 
+(5행 1,2,3,4,5,6,7번 end)
+1: 21frame 43px, 
+2: 9frame 46px, 
+3: 12frame 71px, 
+4: 18frame 82px, 
+5: 19frame 86px, 
+6: 11frame 85px, 
+7: 40frame 34px
+
+[특수스프라이트]
+death: 72x32 (4frame, 4frame, 1frame, 1frame, endframe)
+1: x:272 y:268 - 4frame
+2: x:344 y:268 - 4frame
+3: x:416 y:268 - 1frame
+4: x:419 y:236 - 1frame
+5: x:419 y:204 - endframe
+
+[특수스프라이트]
+climb: 31x79
+x:502, y:184 - endframe
