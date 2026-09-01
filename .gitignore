@@ -26,6 +26,8 @@ x86/
 *.gch
 *.pch
 
+!WindowsProject1/Object/*
+
 # 메타데이터 및 로그
 *.meta
 *.log
