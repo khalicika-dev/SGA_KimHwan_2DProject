@@ -1,69 +1,53 @@
-# Prerequisites
-*.d
+# ==========================================
+# Visual Studio 빌드 및 프로젝트 임시 파일
+# ==========================================
+# 빌드 결과물 (디버그/릴리즈)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Visual Studio 캐시 및 로컬 설정
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 컴파일러 생성 파일
+*.aps
+*.odl
 *.obj
-
-# Precompiled Headers
+*.pdb
+*.ilk
+*.idb
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+# 메타데이터 및 로그
+*.meta
 *.log
+*.tlog
+*.lastbuildstate
+
+# ==========================================
+# DirectX 및 그래픽 컴파일 아티팩트
+# ==========================================
+# HLSL 셰이더 컴파일 결과물
+*.cso
+
+# ==========================================
+# 백업 및 패키지 관리
+# ==========================================
+# 백업 파일
 *.bak
-*.swp
 
-# vcpkg
+# NuGet 패키지
+packages/
+!packages/repository.config
+
+# vcpkg (C++ 패키지 관리자 사용 시)
 vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+vcpkg-configuration.json
