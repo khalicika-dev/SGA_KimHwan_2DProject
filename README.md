@@ -5,6 +5,8 @@ VS2019 x64 기반 프로젝트. DX11가 사용된 2D어드벤처장르로, 2011�
 
 이 작품의 특징으로는 지면을 **Line을 콜리전**으로 만들어 플레이어의 이동경로가 Line형태의 Collision과 교차하면 충돌이 발생하게 제작되었으며, 오브젝트 간 충돌에는 **OBB충돌기법**을 적극적으로 활용하였습니다.
 
+※ Releases란에 실행파일(.exe) 및 시연 영상(.mp4) 첨부됨.
+
 ## 시연 영상
 
 [![시연 영상](https://img.youtube.com/vi/ecZQKfxoYHA/0.jpg)](https://youtu.be/ecZQKfxoYHA)
